@@ -13,9 +13,11 @@
 		3BDC6C2625F1920A00CDEEBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BDC6C2425F1920A00CDEEBE /* Main.storyboard */; };
 		3BDC6C2825F1920D00CDEEBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BDC6C2725F1920D00CDEEBE /* Assets.xcassets */; };
 		3BDC6C2B25F1920D00CDEEBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BDC6C2925F1920D00CDEEBE /* LaunchScreen.storyboard */; };
+		6D204A20B3C3BC93A89BE17B /* Pods_AramofireTutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C3D3A599E81D44BE0D0F543 /* Pods_AramofireTutorial.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C3D3A599E81D44BE0D0F543 /* Pods_AramofireTutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AramofireTutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BDC6C1B25F1920A00CDEEBE /* AramofireTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AramofireTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BDC6C1E25F1920A00CDEEBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BDC6C2025F1920A00CDEEBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		3BDC6C2725F1920D00CDEEBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BDC6C2A25F1920D00CDEEBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BDC6C2C25F1920D00CDEEBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68CD78252069EEDB0F68CBAE /* Pods-AramofireTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AramofireTutorial.debug.xcconfig"; path = "Target Support Files/Pods-AramofireTutorial/Pods-AramofireTutorial.debug.xcconfig"; sourceTree = "<group>"; };
+		C30C0A2E0132BA52C33ACEFF /* Pods-AramofireTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AramofireTutorial.release.xcconfig"; path = "Target Support Files/Pods-AramofireTutorial/Pods-AramofireTutorial.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D204A20B3C3BC93A89BE17B /* Pods_AramofireTutorial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				3BDC6C1D25F1920A00CDEEBE /* AramofireTutorial */,
 				3BDC6C1C25F1920A00CDEEBE /* Products */,
+				91119BC7134882E8525B5C19 /* Pods */,
+				69DD47DAE347FF1D64AEFE8D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,24 @@
 			path = AramofireTutorial;
 			sourceTree = "<group>";
 		};
+		69DD47DAE347FF1D64AEFE8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C3D3A599E81D44BE0D0F543 /* Pods_AramofireTutorial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91119BC7134882E8525B5C19 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68CD78252069EEDB0F68CBAE /* Pods-AramofireTutorial.debug.xcconfig */,
+				C30C0A2E0132BA52C33ACEFF /* Pods-AramofireTutorial.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BDC6C2F25F1920D00CDEEBE /* Build configuration list for PBXNativeTarget "AramofireTutorial" */;
 			buildPhases = (
+				89C3B22BECAD8AA0FEC56322 /* [CP] Check Pods Manifest.lock */,
 				3BDC6C1725F1920A00CDEEBE /* Sources */,
 				3BDC6C1825F1920A00CDEEBE /* Frameworks */,
 				3BDC6C1925F1920A00CDEEBE /* Resources */,
+				BD9540900BBC239008661C3B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,6 +158,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		89C3B22BECAD8AA0FEC56322 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AramofireTutorial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD9540900BBC239008661C3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AramofireTutorial/Pods-AramofireTutorial-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AramofireTutorial/Pods-AramofireTutorial-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AramofireTutorial/Pods-AramofireTutorial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3BDC6C1725F1920A00CDEEBE /* Sources */ = {
@@ -283,6 +352,7 @@
 		};
 		3BDC6C3025F1920D00CDEEBE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68CD78252069EEDB0F68CBAE /* Pods-AramofireTutorial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +372,7 @@
 		};
 		3BDC6C3125F1920D00CDEEBE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C30C0A2E0132BA52C33ACEFF /* Pods-AramofireTutorial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
