@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BC5302925F1965A001CADFA /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC5302825F1965A001CADFA /* ArticleViewController.swift */; };
+		3BC5302C25F19B2E001CADFA /* ArticleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC5302B25F19B2E001CADFA /* ArticleModel.swift */; };
 		3BDC6C1F25F1920A00CDEEBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDC6C1E25F1920A00CDEEBE /* AppDelegate.swift */; };
 		3BDC6C2125F1920A00CDEEBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDC6C2025F1920A00CDEEBE /* SceneDelegate.swift */; };
 		3BDC6C2325F1920A00CDEEBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDC6C2225F1920A00CDEEBE /* ViewController.swift */; };
@@ -18,6 +20,8 @@
 
 /* Begin PBXFileReference section */
 		2C3D3A599E81D44BE0D0F543 /* Pods_AramofireTutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AramofireTutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC5302825F1965A001CADFA /* ArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewController.swift; sourceTree = "<group>"; };
+		3BC5302B25F19B2E001CADFA /* ArticleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleModel.swift; sourceTree = "<group>"; };
 		3BDC6C1B25F1920A00CDEEBE /* AramofireTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AramofireTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BDC6C1E25F1920A00CDEEBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BDC6C2025F1920A00CDEEBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				3BDC6C1E25F1920A00CDEEBE /* AppDelegate.swift */,
 				3BDC6C2025F1920A00CDEEBE /* SceneDelegate.swift */,
 				3BDC6C2225F1920A00CDEEBE /* ViewController.swift */,
+				3BC5302825F1965A001CADFA /* ArticleViewController.swift */,
+				3BC5302B25F19B2E001CADFA /* ArticleModel.swift */,
 				3BDC6C2425F1920A00CDEEBE /* Main.storyboard */,
 				3BDC6C2725F1920D00CDEEBE /* Assets.xcassets */,
 				3BDC6C2925F1920D00CDEEBE /* LaunchScreen.storyboard */,
@@ -88,7 +94,6 @@
 				68CD78252069EEDB0F68CBAE /* Pods-AramofireTutorial.debug.xcconfig */,
 				C30C0A2E0132BA52C33ACEFF /* Pods-AramofireTutorial.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -207,6 +212,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BDC6C2325F1920A00CDEEBE /* ViewController.swift in Sources */,
+				3BC5302C25F19B2E001CADFA /* ArticleModel.swift in Sources */,
+				3BC5302925F1965A001CADFA /* ArticleViewController.swift in Sources */,
 				3BDC6C1F25F1920A00CDEEBE /* AppDelegate.swift in Sources */,
 				3BDC6C2125F1920A00CDEEBE /* SceneDelegate.swift in Sources */,
 			);
